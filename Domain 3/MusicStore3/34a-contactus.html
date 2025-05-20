@@ -10,7 +10,23 @@
     We look forward to hearing from you!</p>
 
     <!-- insert form here-->
-        <form action="thankyou.html" method="post"></form>
-    
+    <form action="thankyou.html" method="post">
+        <label for="firstname">First Name</label>
+        <input type="text" name="firstname" id="firstname" /> <br />
+        <label for="lastname">Last Name</label>
+        <input type="text" name="firstname" id="lastname" /> <br />
+        <label for="email">Email Address</label>
+        <input type="email" name="firstname" id="email" /> <br />\
+        <p>How did you hear about us?</p>
+        <select name="found" id="found">
+            <option value="TV">TV</option>
+            <option value="WEB" selected>Web</option>
+            <option value="Other">Other</option>
+        </select>
+        <p>Add comments below</p>
+        <textarea rows="6" cols="50" maxlength="255"></textarea>
+        <button name="showimage" onclick="">Show image</button>
+        <input type="submit" name="submitform" value="Send It" />
+    </form>
 </body>
 </html>
