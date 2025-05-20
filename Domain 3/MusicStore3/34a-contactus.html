@@ -12,12 +12,17 @@
     <!-- insert form here-->
     <form action="thankyou.html" method="post"
             oninput="fn.value = firstname.value + ' ' + lastname.value>
+        <fieldset>
+            <legend>Personal</legend>
         <label for="firstname">First Name</label>
         <input type="text" name="firstname" id="firstname" /> <br />
         <label for="lastname">Last Name</label>
         <input type="text" name="firstname" id="lastname" /> <br />
         <label for="email">Email Address</label>
         <input type="email" name="firstname" id="email" /> <br />\
+        </fieldset>
+        <fieldset>
+            <legend>Questions</legend>
         <p>How did you hear about us?</p>
         <select name="found" id="found">
             <optgroup label="Media">
@@ -30,6 +35,15 @@
             <option value="Bing">Bing</option>
             </optgroup>
         </select>
+        <p>What instruments are you most interested in learning? </p>
+        <input list="instruments" name="Instrument" />
+        <datalist id="instruments">
+            <option value="guitar"></option>
+            <option value="piano"></option>
+            <option value="drums"></option>
+            <option value="bass"></option>
+        </datalist>
+        </fieldset>
         <p>Add comments below</p>
         <textarea rows="6" cols="50" maxlength="255"></textarea>
         <button name="showimage" onclick="">Show image</button>
