@@ -16,7 +16,7 @@ figcaption {
     font-weight: bold;
     background-color: #AAEEFF;
     display:inline;
-    font-weight: 700px;
+    
 }
 .sale {
     font-weight: bold;
@@ -26,10 +26,11 @@ figcaption {
 #sidenote {
     background-color: #DDDDDD;
     display:inline;
-
+    font-weight: bold;
 }
 a {
     text-decoration: none;
+    color:darkgreen
 }
 a:hover {
     text-decoration: underline;
