@@ -5,6 +5,9 @@
 p {
     color: navy;
 }
+h1 {
+    font-size: 18pt;
+}
 
 /* The background color is extending across the page,
     so I have commented it out for now. */
